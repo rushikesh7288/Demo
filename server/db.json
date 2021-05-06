@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "fullName": "erfdsdf",
+      "address": "Plot no 14 Devgiri housing society khokadpura",
+      "gender": "Male",
+      "email": "a@g.com",
+      "birthDate": "2034-05-14T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "fullName": "erfdsdf",
+      "address": "Plot no 14 Devgiri housing society khokadpura",
+      "gender": "Male",
+      "email": "a@g.com",
+      "birthDate": "2034-05-14T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "fullName": "erfdsdf",
+      "address": "Plot no 14 Devgiri housing society khokadpura",
+      "gender": "Male",
+      "email": "a@g.com",
+      "birthDate": "2034-05-14T18:30:00.000Z",
+      "id": 6
+    }
+  ]
+}

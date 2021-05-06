@@ -1,0 +1,137 @@
+.fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+  .form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .form-element {
+    padding: 5px 0px 25px 2px;
+    width: 100%;
+  }
+  
+  .button {
+    width: 100%;
+  }
+  .mat-card{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .mat-raised-button {
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 50px;
+    overflow: visible;
+    transform: translate3d(0, 0, 0);
+    background-color: green;
+    transition: background 400ms cubic-bezier(0.25, 0.8, 0.25, 1),box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fill-remaining-space{
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 1.2px solid #00a99d;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.reg-heading{
+    background-color: gray;
+}
+.invalid-feedback {
+    width: 100%;
+    font-size: 80%;
+    color: #dc3545;
+    display: contents;
+}
+.form-element {
+  padding:  5px 0px 0px 0px;
+  width: 100%;
+}
+.inserted{
+  color: limegreen;
+}
+.mat-radio-label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 100%;
+    font-family: Poppins;
+}
+.mat-radio {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    flex-shrink: 0;
+    font-family: Poppins;
+    margin: 20px;
+}
+.mat-form-field {
+    font-size: inherit;
+    font-weight: 400;
+    line-height: 1.125;
+    font-family: Poppins;
+}
+label {
+    display: inline-block;
+    font-family: Poppins;
+}
+.mat-raised-button {
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    margin: 0;
+    min-width: 64px;
+    line-height: 40px;
+    padding: 0 16px;
+    border-radius: 50px;
+    overflow: visible;
+    transform: translate3d(0, 0, 0);
+    background-color: #00a99d;
+    transition: background 400ms cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}

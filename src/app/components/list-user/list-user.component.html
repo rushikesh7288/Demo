@@ -1,0 +1,41 @@
+<div class="container">
+   <div>
+    <h1>User List</h1>
+   </div>
+
+    <div class="col-sm-12">
+        <mat-card>
+      <table class="responsive-table highlight table" >
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Birth Date</th>
+            <th>Address</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody >
+          <tr *ngFor="let user of allUser" >
+            <td>{{user.fullName}}</td>           
+            <td>{{user.email}}</td>
+            <td>{{user.gender}}</td> 
+            <td>{{user.birthDate}}</td>                  
+            <td>{{user.address}}</td>            
+         
+            <td>
+              <a class="action-btn" (click)="editUser(user,_id)">
+                <i class="material-icons">edit</i>
+              </a>
+              <a class="action-btn" (click)="deleteUser(user,user.fullName)">
+                <i class="material-icons">delete</i>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </mat-card>
+    </div>
+
+</div>
